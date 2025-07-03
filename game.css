@@ -1,0 +1,43 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body {
+  background: linear-gradient(135deg, #8e44ad, #3498db);
+ font-family: 'Poppins', sans-serif;
+}
+.hey{
+    text-align: center;
+}
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+.mainContent{
+    padding-bottom: 10px;
+}
+.game{
+     width: 40%;
+    height: auto;
+    padding: 25px;
+    text-align: center;
+    color: aliceblue;
+    border-radius: 10px;
+    box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.3);
+    background: linear-gradient(135deg, #8e44ad, #3498db);
+}
+.list {
+  padding: 10px;
+  margin: 8px;
+  border: 1px solid white;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.3s;
+  list-style: none;
+}
+.list:hover {
+  background-color: rgba(255, 255, 255, 0.1);
+}
